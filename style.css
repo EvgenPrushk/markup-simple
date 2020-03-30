@@ -112,4 +112,27 @@ body {
     margin-right: 10px;
 }
 
+.main-arrow {
+    position: relative;
+    z-index: 2;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down{
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;  
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 233, 0.5);  
+}
+
 
